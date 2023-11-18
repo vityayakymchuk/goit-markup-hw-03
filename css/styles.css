@@ -23,7 +23,8 @@ img {
 button {
     cursor: pointer;}
 
-.container {max-width: 1470px;
+.container {
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px; 
     margin-left: auto; 
@@ -38,6 +39,8 @@ font-weight: 400;
 letter-spacing: 0.32px;
 line-height: 1.5;}
 
+.page-header-nav {border: 1px solid #e7e9fc;}
+
 .page-header {
     display: flex;
     flex-direction: row;
@@ -51,8 +54,6 @@ gap: 77px;}
 
 .nav-items {display: flex;
     flex-direction: row;
-padding-top: 24px;
-padding-bottom: 24px;
 gap: 40px;
 }
 
@@ -63,6 +64,7 @@ font-weight: 700;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
+margin-right: 76px;
 }
 
 .logo-second {color: #2E2F42;}
@@ -74,7 +76,9 @@ color: #2e2f42;
 font-size: 16px;
 font-style: normal;
 line-height: 1.5;
-letter-spacing: 0.02em;}
+letter-spacing: 0.02em;
+padding: 24px 0;
+display: block;}
 
 .nav-link:hover, :focus {color: #404bbf;}
 
@@ -240,7 +244,7 @@ padding-top: 32px;
 footer {background-color: #2E2F42;
 padding-bottom: 32px;
 padding-top: 8px;}
-    
+
 .description {color: #F4F4FD;
 width: 264px;}
 
