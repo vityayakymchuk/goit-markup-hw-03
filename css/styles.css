@@ -263,8 +263,8 @@ margin-bottom: 8px;
 }
 
 .port-item {
-    width: calc((100%-48px) / 3);
-    row-gap: 48px;
+width: calc((100% - 48px) / 3);
+
 }
 
 .portfolio-items {
@@ -272,7 +272,7 @@ margin-bottom: 8px;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 24px;
-    
+    row-gap: 48px;
 }
 .portfolio-content {}
 footer {background-color: #2E2F42;
